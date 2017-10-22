@@ -51,6 +51,8 @@ _____________________________________________________________________________
 ### Winners Page in `winners.html`
 * Use a [`<table>` HTML](https://www.w3schools.com/html/html_tables.asp) tag to create a list of players and their scores. See the example below:
   ![example table](images/example-table.png)
+* Add a background color to this page
+* Change the color of the font
 _____________________________________________________________________________
 
 ## LEVEL TWO
