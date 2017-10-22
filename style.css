@@ -1,0 +1,15 @@
+#nav {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 10px;
+  border-bottom: 1px solid gray;
+}
+
+.nav-item {
+  display: inline-block;
+}
+
+.nav-link {
+  float: right;
+  margin-left: 10px;
+}
