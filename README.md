@@ -25,8 +25,8 @@ _____________________________________________________________________________
   </body>
   ```
 * In `style.css` select the `id` to add a [background color](https://www.w3schools.com/cssref/pr_background-color.asp)
-* Change the text color of this page (you can keep it black if you prefer that)
-* Add at least one image to your page. It can be whatever image you would like here are some suggestions: rock paper scissors, hand games, computer games...
+* Change the text color of this page
+* Add at least one image to your page. Here are some googling suggestions: rock paper scissors, hand games, computer games...
 * Add a `<button>` to the page that says "PLAY!" put an `id` on this button tag. (you will use the `id` later)
 
 ### Contact Page in `contact.html`
@@ -36,7 +36,7 @@ _____________________________________________________________________________
     ...
   </body>
   ```
-* In style.css select the `id` to add a background image on the contact page using the `background-image` CSS property. Look [here](https://css-tricks.com/perfect-full-page-background-image/) for more help. 
+* In style.css select the `id` on the `<body>` to add a background image to the contact page using the `background-image` CSS property. Look [here](https://css-tricks.com/perfect-full-page-background-image/) for more help. 
     * The website [stocksnap.io](https://stocksnap.io/) has some great free images. Try typing "gaming", "computer", or "office"
 * Add a `<div>` that has some made up contact information. See the example below.
   ``` HTML
