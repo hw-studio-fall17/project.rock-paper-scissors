@@ -75,20 +75,31 @@ _____________________________________________________________________________
 
 ### In `script.js`
 * Select the "PLAY!" button using it's `id` and save it as a JavaScript variable. For example:
-  * ``` var exampleVariable = $("#example-id"); ```
-* Call the [click() jQuery function](https://api.jquery.com/click/) on your variable. 
-  * Once the user clicks on the button we want to use prompt() to ask the user to "pick rock, paper, or scissors". See [here](https://www.w3schools.com/jsref/met_win_prompt.asp) for an example
+  ``` 
+    var exampleVariable = $("#example-id"); 
+  ```
+* Call the [click() jQuery function](https://www.w3schools.com/jquery/event_click.asp) on your variable. Once the user clicks we want :
+  * Use the prompt() function to ask the user to "Pick rock, paper, or scissors". See [here](https://www.w3schools.com/jsref/met_win_prompt.asp) for an example
   * Save this prompt as a variable called `userChoice`. See the example below:
     ```
       var exampleAnswer = prompt("How are you?");
     ```
   * Write an `alert()` that will say "The user choice was ___________". The "_______" should say what the user typed into the prompt. Look at the other alert in `script.js` for an example.
-  * Write an `if` / `else if` / `else` statement that will determine Who won the game [example](https://www.w3schools.com/js/js_if_else.asp)
-    * **If** the user chose rock and the computer chose scissors. Use `alert()` to say that the user won!
+  * If you `alert()` is showing the correct text you can get rid of it
+  __________________________________________________________________________
+  STOP HAVE AN INSTRUCTOR CHECK YOUR WORK!
+  __________________________________________________________________________
+  * Still working onside the `click()` function...Write an `if` / `else if` / `else` statement that will determine Who won the game [example](https://www.w3schools.com/js/js_if_else.asp)
+    * **If** the user chose rock and the computer chose scissors. Use `alert()` to say that the user won! This will look something like this:
+        ```
+          if (userChoice == 'rock' && computerChoice == 'scissors') {
+            alert("YOU WIN!!")
+          }
+        ```
     * **Else if** the user chose paper and the computer chose scissors. User `alert()` to sat that the computer won!
     * Keep writing **else if** statements to cover all of the possibilities. 
-      * Don't forget to account for ties.
-      * Don't forget to account for invalid entries like "pencil"
+      * Does your game work for ties?
+      * Does your game work when the user types a random word like "hippo" in the prompt?
 
 _____________________________________________________________________________
 ## LEVEL THREE
