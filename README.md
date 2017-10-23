@@ -64,7 +64,7 @@ _____________________________________________________________________________
   * Click on the black bar at the bottom of the page that says 1 Family Selected
   * Copy the `<link>` and put it inside the `<head>` tag in your HTML file
   * Follow the font-family instructions for your CSS
-* Style your "TELL MY FORTUNE!" button to look better. Here are some CSS properties you will probably want to use:
+* Style your "PLAY!" button to look better. Here are some CSS properties you will probably want to use:
   * `background-color`
   * `border-radius`
   * `padding`
